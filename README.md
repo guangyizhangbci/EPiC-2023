@@ -39,6 +39,9 @@ parent_dir/
 │   ├── Epic_v3.py            # scenario 3 (4 folds): experiment on validation set
 │   └── Epic_v4.py            # scenario 4 (3 folds): experiment on validation set
 │
+├── submissions/              # results
+│   └── results.zip           # containing results in .csv format for all scenarios
+│
 ├── README.md                 # documentation file with project information
 │
 ├── requirements.txt          # required libs and their versions.
