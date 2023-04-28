@@ -17,29 +17,29 @@ Team: Guangyi Zhang and Ali Etemad
 ```shell
 parent_dir/
 │
-├── EPiC_code/ (source code directory)
-│   ├── ecg_net.py (end-to-end deep learning modules: Conv1D and Transformer)
-│   ├── parsing.py (command line arguments: e.g., learning rate, choice of signal modalities, scenario numbers, fold numbers)
-│   ├── preprocessing.py (preprocessing for ECG and GSR)
-│   ├── pretraining_final.py (pretraining using entire training data from the same fold under the same scenario)
-│   ├── signal_main.py (filtering data and segmenting data with sliding windows) 
-│   ├── test_final.py (generation of test results with two options: 1. training from scratch and 2. retraining using the pre-trained model weights)
-│   ├── train.py (obtaining validation results with two options: 1. training from scratch and 2. retraining using the pre-trained model weights)
-│   ├── train_test_slit.py (train/test split)
-│   ├── train_val_slit.py (train/val split with the split startegy according to train/test split one, random seed fixed)
-│   └── utils.py (containing frequently used helper functions)
+├── EPiC_code/                # source code directory)
+│   ├── ecg_net.py            # end-to-end deep learning modules: Conv1D and Transformer
+│   ├── parsing.py            # command line arguments (e.g., learning rate, choice of signal modalities, scenario numbers, fold numbers)
+│   ├── preprocessing.py      # preprocessing for ECG and GSR
+│   ├── pretraining_final.py  # pretraining using entire training data from the same fold under the same scenario
+│   ├── signal_main.py        # filtering data and segmenting data with sliding windows
+│   ├── test_final.py         # generation of test results with two options: 1. training from scratch and 2. retraining using the pre-trained model weights
+│   ├── train.py              # obtaining validation results with two options: 1. training from scratch and 2. retraining using the pre-trained model weights
+│   ├── train_test_slit.py    # train/test split
+│   ├── train_val_slit.py     # train/val split with the split startegy according to train/test split one, random seed fixed
+│   └── utils.py              # containing frequently used helper functions
 │
-├── bash scripts/ (comands to generate val/test results for each scenario)
-│   ├── Epic_s1.py (Scenario 1: experiment on test set)
-│   ├── Epic_s2.py (Scenario 2 (5 folds): experiment on test set)
-│   ├── Epic_s3.py (Scenario 3 (4 folds): experiment on test set)
-│   ├── Epic_s4.py (Scenario 4 (2 folds): experiment on test set)
-│   ├── Epic_v1.py (Scenario 1: experiment on validation set)
-│   ├── Epic_v2.py (Scenario 2 (5 folds): experiment on validation set)
-│   ├── Epic_v3.py (Scenario 3 (4 folds): experiment on validation set)
-│   └── Epic_v4.py (Scenario 4 (3 folds): experiment on validation set)
+├── bash scripts/             # comands to generate val/test results for each scenario
+│   ├── Epic_s1.py            # scenario 1: experiment on test set 
+│   ├── Epic_s2.py            # scenario 2 (5 folds): experiment on test set
+│   ├── Epic_s3.py            # scenario 3 (4 folds): experiment on test set
+│   ├── Epic_s4.py            # scenario 4 (2 folds): experiment on test set
+│   ├── Epic_v1.py            # scenario 1: experiment on validation set
+│   ├── Epic_v2.py            # scenario 2 (5 folds): experiment on validation set
+│   ├── Epic_v3.py            # scenario 3 (4 folds): experiment on validation set
+│   └── Epic_v4.py            # scenario 4 (3 folds): experiment on validation set
 │
-├── README.md (documentation file with project information)
+├── README.md                 # documentation file with project information
 
 ```
 
