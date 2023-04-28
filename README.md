@@ -8,9 +8,32 @@ Team: Guangyi Zhang and Ali Etemad
 
 
 
-
-
-
+# Files 
+parent_dir/
+│
+├── EPiC_code/ (source code directory)
+│   ├── ecg_net.py (end-to-end deep learning modules: Conv1D and Transformer)
+│   ├── parsing.py 
+│   ├── preprocessing.py 
+│   ├── pretraining_final.py 
+│   ├── signal_main.py
+│   ├── test_final.py
+│   ├── train.py
+│   ├── train_test_slit.py
+│   ├── train_val_slit.py
+│   └── utils.py
+│
+├── bash scripts/ (comands to generate val/test results for each scenario)
+│   ├── Epic_s1.py (Scenario 1: experiment on test set)
+│   ├── Epic_s2.py (Scenario 2 (5 folds): experiment on test set)
+│   ├── Epic_s3.py (Scenario 3 (4 folds): experiment on test set)
+│   ├── Epic_s4.py (Scenario 4 (2 folds): experiment on test set)
+│   ├── Epic_v1.py (Scenario 1: experiment on validation set)
+│   ├── Epic_v2.py (Scenario 2 (5 folds): experiment on validation set)
+│   ├── Epic_v3.py (Scenario 3 (4 folds): experiment on validation set)
+│   └── Epic_v4.py (Scenario 4 (3 folds): experiment on validation set)
+│
+├── README.md (documentation file with project information)
 
 
 
