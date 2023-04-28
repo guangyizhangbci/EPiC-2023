@@ -1,4 +1,4 @@
-# EPiC-2023: A Pipeline for Emotion Recognition using Physiological Signals
+# EPiC-2023: A Simple End-to-end Deep Learning solution for Emotion Recognition using Physiological Signals
 
 
 Team: Guangyi Zhang and Ali Etemad 
