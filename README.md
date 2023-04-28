@@ -40,6 +40,8 @@ parent_dir/
 │   └── Epic_v4.py            # scenario 4 (3 folds): experiment on validation set
 │
 ├── README.md                 # documentation file with project information
+│
+├── requirements.txt          # required libs and their versions.
 
 ```
 
