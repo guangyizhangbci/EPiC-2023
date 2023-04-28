@@ -40,7 +40,7 @@ parent_dir/
 │
 ├── README.md (documentation file with project information)
 
-```shell
+```
 
 
 
