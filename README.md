@@ -30,11 +30,11 @@ parent_dir/
 │   └── utils.py              # containing frequently used helper functions
 │
 ├── bash scripts/             # comands to generate val/test results for each scenario
-│   ├── Epic_s1.py            # scenario 1: experiment on test set 
+│   ├── Epic_s1.py            # scenario 1:           experiment on test set 
 │   ├── Epic_s2.py            # scenario 2 (5 folds): experiment on test set
 │   ├── Epic_s3.py            # scenario 3 (4 folds): experiment on test set
 │   ├── Epic_s4.py            # scenario 4 (2 folds): experiment on test set
-│   ├── Epic_v1.py            # scenario 1: experiment on validation set
+│   ├── Epic_v1.py            # scenario 1:           experiment on validation set
 │   ├── Epic_v2.py            # scenario 2 (5 folds): experiment on validation set
 │   ├── Epic_v3.py            # scenario 3 (4 folds): experiment on validation set
 │   └── Epic_v4.py            # scenario 4 (3 folds): experiment on validation set
