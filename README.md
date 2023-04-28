@@ -12,6 +12,8 @@ Team: Guangyi Zhang and Ali Etemad
 
 # Files 
 
+
+```shell
 parent_dir/
 │
 ├── EPiC_code/ (source code directory)
@@ -38,6 +40,7 @@ parent_dir/
 │
 ├── README.md (documentation file with project information)
 
+```shell
 
 
 
