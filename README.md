@@ -6,10 +6,10 @@ Team: Guangyi Zhang and Ali Etemad
 
 
 - [x] Complete pipeline
-- [x] End-to-end Deep learning modules (convolutional neural network and transformer)
+- [x] End-to-end deep learning modules (convolutional neural network and transformer)
 - [x] Preprocessing of ECG and GSR
 - [ ] More end-to-end deep learning frameworks
-- [ ] Multimodal 
+- [ ] Multimodal learning
 
 
 
