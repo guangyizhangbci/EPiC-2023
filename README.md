@@ -60,3 +60,5 @@ Despite these constraints, I have built a complete pipeline that can be utilized
 In this project, we focused on single channel ECG out of a total of 8 available signales including other modalities. However, we believe that incorporating additional modalities could lead to better results. Our code is designed to be easily extendable, and we welcome researchers to modify and adapt it to their specific needs.
 
 We appreciate any contributions, suggestions, or improvements that others might offer to enhance the performance and applicability of our work. Please feel free to fork this repository, submit pull requests, or open issues to discuss potential improvements. 
+
+Should you have any questions, please feel free to contact me at guangyi.zhang@queensu.ca.
