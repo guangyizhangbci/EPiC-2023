@@ -69,7 +69,8 @@ parent_dir/
 
 2. Multimodal Data Analysis: Ultimately, we will apply the entire pipeline to the multimodal data, where we will preprocess, extract features, select models, fine-tune hyperparameters, evaluate the models, and devise fusion methods for incorporating multiple signals. We will once again assess our model's performance using the RMSE metric and compare its performance with the unimodal models.
 
-
+# Usage
+The usage of this code is very simple. The only thing you need to change is the ['parent_path'](./EPiC_code/utils.py#LL12C2-L12C32) in utils.py
 
 # Statement of Limitations
 
