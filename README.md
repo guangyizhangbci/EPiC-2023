@@ -5,10 +5,13 @@ Team: Guangyi Zhang and Ali Etemad
 
 
 
-
-
+- [x] Complete pipeline
+- [x] Preprocessing of ECG and GSR
+- [ ] Preprocessing of more modalities
+- [ ] Multimodal 
 
 # Files 
+
 parent_dir/
 │
 ├── EPiC_code/ (source code directory)
