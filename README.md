@@ -1,1 +1,1 @@
-# EPiC-2023-An-Emotion-Recognition-Method-using-Physiological-Signals
+# EPiC-2023: A Pipeline for Emotion Recognition using Physiological Signals
