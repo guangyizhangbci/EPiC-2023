@@ -32,14 +32,15 @@ parent_dir/
 │   └── utils.py              # containing frequently used helper functions
 │
 ├── bash scripts/             # comands to generate val/test results for each scenario
-│   ├── Epic_s1.py            # scenario 1:           experiment on test set 
-│   ├── Epic_s2.py            # scenario 2 (5 folds): experiment on test set
-│   ├── Epic_s3.py            # scenario 3 (4 folds): experiment on test set
-│   ├── Epic_s4.py            # scenario 4 (2 folds): experiment on test set
-│   ├── Epic_v1.py            # scenario 1:           experiment on validation set
-│   ├── Epic_v2.py            # scenario 2 (5 folds): experiment on validation set
-│   ├── Epic_v3.py            # scenario 3 (4 folds): experiment on validation set
-│   └── Epic_v4.py            # scenario 4 (3 folds): experiment on validation set
+│   ├── EPiC_s1.sh            # scenario 1:           experiment on test set 
+│   ├── EPiC_s2.sh            # scenario 2 (5 folds): experiment on test set
+│   ├── EPiC_s3.sh            # scenario 3 (4 folds): experiment on test set
+│   ├── EPiC_s4.sh            # scenario 4 (2 folds): experiment on test set
+│   ├── EPiC_v1.sh            # scenario 1:           experiment on validation set
+│   ├── EPiC_v2.sh            # scenario 2 (5 folds): experiment on validation set
+│   ├── EPiC_v3.sh            # scenario 3 (4 folds): experiment on validation set
+│   ├── EPiC_v4.sh            # scenario 4 (3 folds): experiment on validation set
+│   └── submission.sh         # move path to the one required by the organizers
 │
 ├── submissions/              # results
 │   └── results.zip           # containing results in .csv format for all scenarios
@@ -70,8 +71,7 @@ parent_dir/
 2. Multimodal Data Analysis: Ultimately, we will apply the entire pipeline to the multimodal data, where we will preprocess, extract features, select models, fine-tune hyperparameters, evaluate the models, and devise fusion methods for incorporating multiple signals. We will once again assess our model's performance using the RMSE metric and compare its performance with the unimodal models.
 
 # Usage
-The usage of this code is very simple. The only thing you need to change is the ['parent_path'](./EPiC_code/utils.py#LL12C2-L12C32) in utils.py
-
+The usage of this code is very simple. The only thing you need to change is the ['parent_path'](./EPiC_code/utils.py#LL12C2-L12C32) in utils.py. You can choose to obtain validation results or generate test annotations with the bash files provided in 'bash_scripts' folder. In the final step, if you would like to generate test annotations into the format required by the organizers, please use the example in ['submission.sh'](./bash_scripts/submission.sh]
 # Statement of Limitations
 
 Please note that this project was developed under specific constraints which may have affected the performance and generalization of the model. Our team was limited to only two members, with me working only on weekends and spending less than 40 hours to form this version of code or solution. Additionally, I had very limited GPU resources during the development process.
