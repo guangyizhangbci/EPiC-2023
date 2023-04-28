@@ -11,6 +11,8 @@ Team: Guangyi Zhang and Ali Etemad
 - [ ] More end-to-end deep learning frameworks
 - [ ] Multimodal 
 
+
+
 # Files 
 
 
@@ -49,16 +51,29 @@ parent_dir/
 ```
 
 
+# Pipeline 
+1. Data Preprocessing: This step entails cleansing and preparing the data for analysis, which includes filtering, normalization, and segmentation of physiological signals such as ECG and GSR. We opt for a window length of 10 seconds.
 
+2. Model Selection: Next, we select end-to-end deep learning-based regression models (Convolutional Neural Network and Transformer) to predict valence and arousal ratings based on the acquired ECG representations.
 
+3. Train/Validation Split: We adhere to the train-test split protocols provided by the organizer, splitting the validation set from the training set in each scenario.
 
+4. Training strategies: 1) training from scratch, and 2) pretraining the model on the entire training data from the same fold in the same scenario, followed by retraining the model.
 
+5. Evaluation: In scenario 1, we conduct subject-dependent and video session-dependent experiments. In each fold of scenario 2, we carry out session-dependent experiments. In each fold of both scenarios 3 and 4, we perform subject-dependent experiments.
+
+6. Final results: We assess several baselines on the validation set and select the best one (according to averaged validation RMSE values) for the test set to obtain the final results for submission.
+
+# To Do List. 
+1. Fusion Method: After evaluating the performance of the model on each unimodal physiological signal, we will develop an efficient fusion method to integrate information from multiple physiological signals. This process might involve merging features extracted from various signals or combining the predictions of multiple models trained on different signals.
+
+2. Multimodal Data Analysis: Ultimately, we will apply the entire pipeline to the multimodal data, where we will preprocess, extract features, select models, fine-tune hyperparameters, evaluate the models, and devise fusion methods for incorporating multiple signals. We will once again assess our model's performance using the RMSE metric and compare its performance with the unimodal models.
 
 
 
 # Statement of Limitations
 
-Please note that this project was developed under specific constraints which may have affected the performance and generalization of the model. Our team was limited to only two members, with me spending less than 40 hours to form this version of code or solution. Additionally, I had very limited GPU resources during the development process.
+Please note that this project was developed under specific constraints which may have affected the performance and generalization of the model. Our team was limited to only two members, with me working only on weekends and spending less than 40 hours to form this version of code or solution. Additionally, I had very limited GPU resources during the development process.
 
 Despite these constraints, I have built a complete pipeline that can be utilized by other researchers to build upon and potentially improve the model's performance. We encourage the community to explore and experiment with this pipeline to optimize the results further.
 
