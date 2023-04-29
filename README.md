@@ -76,7 +76,7 @@ The usage of this code is straightforward. The only modification needed is to ch
 
 ## Statement of Limitations
 
-Please note that this project was developed under specific constraints which may have affected the performance and generalization of the model. Our team was limited to only two members, with me working only on weekends and spending less than 40 hours in total to form this version of code or solution. Additionally, I had very limited GPU resources during the development process.
+Please note that this project was developed under specific constraints which may have affected the performance and generalization of the model. Our team was limited to only two members, dedicating weekends only with 40 hours in total to form this version of code or solution. Additionally, I had very limited GPU resources during the development process.
 
 Despite these constraints, I have built a complete pipeline that can be utilized by other researchers to build upon and potentially improve the model's performance. We encourage the community to explore and experiment with this pipeline to optimize the results further.
 
