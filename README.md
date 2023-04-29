@@ -73,6 +73,7 @@ parent_dir/
 ## Usage
 The usage of this code is straightforward. The only modification needed is to change the ['/path/to/folder'](./EPiC_code/utils.py#LL12C2-L12C32) in 'utils.py' and any bash files you wish to use. You can opt to acquire validation results or generate test annotations with the bash files provided in the ['bash_scripts'](./bash_scripts) folder. Finally, if you want to generate test annotations in the format required by the organizers, please refer to the example in ['submission.sh'](./bash_scripts/submission.sh).
 
+## Submission
 
 ## Statement of Limitations
 
