@@ -74,7 +74,9 @@ parent_dir/
 The usage of this code is straightforward. The only modification needed is to change the ['/path/to/folder'](./EPiC_code/utils.py#LL12C2-L12C32) in 'utils.py' and any bash files you wish to use. You can opt to acquire validation results or generate test annotations with the bash files provided in the ['bash_scripts'](./bash_scripts) folder. Finally, if you want to generate test annotations in the format required by the organizers, please refer to the example in ['submission.sh'](./bash_scripts/submission.sh).
 
 ## Submission
-
+| Model/Train | Scratch  | Retrain  |
+| 1-D CNN | N/A  | Attempt 1 (RMSE: 1.29)  |
+| Transformer |  Attempt 2 (RMSE: 1.22)  | Attempt 3 (RMSE: 1.22) |
 ## Statement of Limitations
 
 Please note that this project was developed under specific constraints which may have affected the performance and generalization of the model. Our team was limited to only two members, wih me dedicating weekends with 40 hours in total to form this version of code or solution. Additionally, I had limited GPU resources during the development process.
