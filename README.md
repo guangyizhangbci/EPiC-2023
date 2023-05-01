@@ -77,7 +77,7 @@ The usage of this code is straightforward. The only modification needed is to ch
 ```
 |<center>Model/Train</center>|<center>Scratch (ECG Only)</center>|<center>Retrain (ECG Only)</center>|
 | :-----------: | ---------------------- | ---------------------- |
-|**1-D CNN**   | N/A                    | Attempt 1 (RMSE: 1.29) |
+|***1-D CNN***   | N/A                    | Attempt 1 (RMSE: 1.29) |
 |**Transformer**| Attempt 2 (RMSE: 1.22) | Attempt 3 (RMSE: 1.22) |
 ```
 
