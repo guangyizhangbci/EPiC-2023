@@ -81,7 +81,7 @@ The usage of this code is straightforward. The only modification needed is to ch
 |  Transformer  | Attempt 2 (RMSE: 1.22) | Attempt 3 (RMSE: 1.31) |
 ```
 
-After evaluating the root mean square error (RMSE) values on a portion of the test data, as presented in the table, we have selected 'Attempt 2' as our final submission.
+After evaluating the root mean square error (RMSE) values on a portion of the test data, as presented in the table, we have selected **'Attempt 2'** as our final submission.
 
 To replicate the results of the final submission, execute the bash files "EPiC_s1", "EPiC_s2", "EPiC_s3", and "EPiC_s4", while commenting out commands containing 'retrain' that were used for "Attempt 3". 
 
