@@ -87,7 +87,7 @@ To replicate the results of the final submission, execute the bash files "EPiC_s
 
 If you wish to reproduce the results of 'Attempt 1', modify the module in ['ecg_net.py'](./EPiC_code/ecg_net.py) by changing 'Transformer' to 'Conv-1D' and run the aforementioned bash files, making sure to comment out commands with 'scratch'.
 
-Refer to the 'Usage' section above for instructions on how to move results from saved folders (e.g., './ecg/scratch' or './ecg/retrain') into the format required by the event organizers.
+Refer to the 'Usage' section above for instructions on how to move results from saved folders (e.g., './ecg/scratch' or './ecg/retrain') into the format required by the EPiC organizers.
 
 
 ## Statement of Limitations
