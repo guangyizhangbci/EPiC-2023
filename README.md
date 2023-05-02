@@ -80,6 +80,10 @@ The usage of this code is straightforward. The only modification needed is to ch
 |   1-D CNN     |         N/A            | Attempt 1 (RMSE: 1.29) |
 |  Transformer  | Attempt 2 (RMSE: 1.22) | Attempt 3 (RMSE: 1.31) |
 ```
+After evaluating the root mean square error (RMSE) values on a portion of the test data, as presented in the table, we have selected 'Attempt 2' as our final submission.
+
+To replicate the results of the final submission, execute the bash files "EPiC_s1", "EPiC_s2", "EPiC_s3", and "EPiC_s4", while commenting out commands containing 'retrain' that were used for "Attempt 3". If you wish to reproduce the results of 'Attempt 1', modify the module in ['ecg_net.py'](./EPiC_code/ecg_net.py) by changing 'Transformer' to 'Conv_EEG' and run the aforementioned bash files, making sure to comment out commands with 'scratch'. Refer to the 'Usage' section above for instructions on how to move results from saved folders (e.g., './ecg/scratch' or './ecg/retrain') into the format required by the event organizers.
+
 
 ## Statement of Limitations
 
