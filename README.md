@@ -19,7 +19,7 @@ Team: Guangyi Zhang and Ali Etemad
 ```shell
 parent_dir/
 │
-├── EPiC_code/                # source code directory)
+├── EPiC_code/                # source code directory
 │   ├── ecg_net.py            # end-to-end deep learning modules: Conv1D and Transformer
 │   ├── parsing.py            # command line arguments (e.g., learning rate, choice of signal modalities, scenario numbers, fold numbers)
 │   ├── preprocessing.py      # preprocessing for ECG and GSR
