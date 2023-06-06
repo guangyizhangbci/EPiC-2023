@@ -1,16 +1,16 @@
-# EPiC-2023: A Naive End-to-End Deep Learning Approach for Emotion Recognition using Physiological Signals
+# EPiC-2023: An End-to-End Transformer-Based Framework for Robust Emotion Recognition using ECG
 
 
 Team: Guangyi Zhang and Ali Etemad 
 
 
 
-- [x] Complete pipeline
+<!-- - [x] Complete pipeline
 - [x] End-to-end deep learning modules (convolutional neural network and transformer)
 - [x] Preprocessing of ECG and GSR
 - [ ] More end-to-end deep learning frameworks
 - [ ] Multimodal learning
-
+ -->
 
 
 ## Files 
