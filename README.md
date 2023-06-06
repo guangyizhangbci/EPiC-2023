@@ -1,4 +1,4 @@
-# EPiC-2023: An End-to-End Transformer-Based Framework for Robust Emotion Recognition using ECG
+# EPiC-2023: Robust End-to-End Emotion Recognition from ECG using Transformers
 
 
 Team: Guangyi Zhang and Ali Etemad 
