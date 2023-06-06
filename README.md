@@ -65,10 +65,10 @@ parent_dir/
 
 6. Final results: We assess several baselines on the validation set and select the best one (according to averaged validation RMSE values) for the test set to obtain the final results for submission.
 
-## To Do List. 
+<!-- ## To Do List. 
 1. Fusion Method: After evaluating the performance of the model on each unimodal physiological signal, we will develop an efficient fusion method to integrate information from multiple physiological signals. This process might involve merging features extracted from various signals or combining the predictions of multiple models trained on different signals.
 
-2. Multimodal Data Analysis: Ultimately, we will apply the entire pipeline to the multimodal data, where we will preprocess, extract features, select models, fine-tune hyperparameters, evaluate the models, and devise fusion methods for incorporating multiple signals. We will once again assess our model's performance using the RMSE metric and compare its performance with the unimodal models.
+2. Multimodal Data Analysis: Ultimately, we will apply the entire pipeline to the multimodal data, where we will preprocess, extract features, select models, fine-tune hyperparameters, evaluate the models, and devise fusion methods for incorporating multiple signals. We will once again assess our model's performance using the RMSE metric and compare its performance with the unimodal models. -->
 
 ## Usage
 The usage of this code is straightforward. The only modification needed is to change the ['/path/to/folder'](./EPiC_code/utils.py#LL12C2-L12C32) in 'utils.py' and any bash files you wish to use. You can opt to acquire validation results or generate test annotations with the bash files provided in the ['bash_scripts'](./bash_scripts) folder. Finally, if you want to generate test annotations in the format required by the organizers, please refer to the example in ['submission.sh'](./bash_scripts/submission.sh).
