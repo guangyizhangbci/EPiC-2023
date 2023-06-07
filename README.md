@@ -1,7 +1,7 @@
 # EPiC-2023 (2nd Place Winner): Robust End-to-End Emotion Recognition from ECG using Transformers
 
 
-Team: Guangyi Zhang and Ali Etemad 
+Team: (Guangyi Zhang)[https://guangyizhangbci.github.io/] and Ali Etemad [https://www.aiimlab.com/director]
 
 
 
