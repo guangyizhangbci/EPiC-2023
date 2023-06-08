@@ -92,7 +92,7 @@ Refer to the 'Usage' section above for instructions on how to move results from 
 
 ## Statement of Limitations
 
-Please note that this project was developed under specific constraints which may have affected the performance and generalization of the model. Our team was limited to only two members, wih me dedicating weekends with 40 hours in total to form this version of code or solution. Additionally, I had limited GPU resources during the development process.
+Please note that this project was developed under specific constraints which may have affected the performance and generalization of the model. Due to the current intense research at the University of Toronto, I only have the chance to dedicate two entire weekends with 40 hours in total to form this version of code or solution. Additionally, I faced the challenge of limited GPU resources during the development process.
 
 Despite these constraints, I have built a complete pipeline that can be utilized by other researchers to build upon and potentially improve the model's performance. We encourage the community to explore and experiment with this pipeline to optimize the results further.
 
