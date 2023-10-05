@@ -100,7 +100,7 @@ In this project, we focused on single channel ECG out of a total of 8 available 
 
 We appreciate any contributions, suggestions, or improvements that others might offer to enhance the performance and applicability of our work. Please feel free to fork this repository, submit pull requests, or open issues to discuss potential improvements. 
 
-Should you have any questions, please feel free to contact me at guangyi.zhang@queensu.ca.
+Should you have any questions, please feel free to contact me at gzhang14@mgh.harvard.edu
 
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
